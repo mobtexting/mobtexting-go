@@ -26,7 +26,7 @@ func main() {
 
         var repsonse = client.Send(to, from, body, service, access_token)
 
-		fmt.Println(repsonse)
+	fmt.Println(repsonse)
 }
 
 ```
