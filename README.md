@@ -24,9 +24,9 @@ func main() {
         var service = "P"
         var access_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-        var repsonse = client.Send(to, from, body, service, access_token)
+        var response = client.Send(to, from, body, service, access_token)
 
-	fmt.Println(repsonse)
+	fmt.Println(response)
 }
 
 ```
