@@ -1,4 +1,4 @@
-# python plugin for golang
+# golang plugin for mobtexting
 
 This package makes it easy to send [Mobtexting notifications](https://mobtexting.com).
 
