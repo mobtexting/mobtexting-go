@@ -31,3 +31,28 @@ func main() {
 
 ```
 
+## Verify Usage
+### Send
+```go
+var to = "1234567890"
+var access_token = "xxxxxxxxxxxxxxxxx"
+var response = client.VerifySend(to, access_token)
+fmt.Println(response)
+```
+
+### Check
+```go
+var id = "b51be650-fdb2-4633-b101-d450e8d9ec64", // id received while sending
+var token = "123456" // token entered by user
+var access_token = "xxxxxxxxxxxxxxxxx"
+var response = client.VerifyCheck(id, token, access_token)
+fmt.Println(response)
+```
+
+### Cancel
+```go
+var id = "b51be650-fdb2-4633-b101-d450e8d9ec64", // id received while sending
+var access_token = "xxxxxxxxxxxxxxxxx"
+var response = client.VerifyCancel(id, access_token)
+fmt.Println(response)
+```
