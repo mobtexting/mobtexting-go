@@ -26,7 +26,7 @@ func main() {
 
         var response = client.Send(to, from, body, service, access_token)
 
-	    fmt.Println(response)
+	fmt.Println(response)
 }
 
 ```
